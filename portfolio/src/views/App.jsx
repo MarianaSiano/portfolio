@@ -1,9 +1,11 @@
-function App() {
-  return (
-    <div>
-      <h1>Teste Portfolio</h1>
-    </div>
-  );
-}
+import './App.css';
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+
+const App = props => {
+  <div className="App">
+    <h1>App</h1>
+  </div>
+};
 
 export default App;
